@@ -27,7 +27,7 @@ const getCheckType = ( type: checkType) => {
     return "Number";
   }
 };
-const checkedTypeValue = "Hello";
+const checkedTypeValue = 42;
 console.log(getCheckType(checkedTypeValue));
 
 
